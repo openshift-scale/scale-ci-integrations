@@ -1,6 +1,8 @@
-# scale-ci-starter
-Work, status and information related to Scale-CI and OpenShift starter framework integrtion to qualify the clusters.
+# scale-ci-integrations
+Work, status and information related to Scale-CI and OpenShift starter, dedicated and origin CI framework integrations to qualify the clusters.
 
+
+## Starter Clusters
 
 ### What is starter?
 Red Hat OpenShift cluster hosted on public cloud and meant for individual learning, experimenting and development.
@@ -11,7 +13,7 @@ Scale-CI automates running various Performance and Scale tests including kubelet
 ### Jobs and status of integration
 Job   | OCP component/category | Description | Status
 ----------------- | ------------------------- | ---------------------------- | ------------------------- | 
-Node Vertical | Kubelet performance and Cluster Limits | Creates max pods per compute node | :soon: |
+Node Vertical | Kubelet performance and Cluster Limits | Creates max pods per compute node | :heavy_check_mark: |
 Master Vertical | Control plane density | Creates bunch of objects to stress ApiServer, Etcd and Controller | :soon:|
 Networking | SDN | uperf benchmarks testing node to node, pod to pod, and svc to svc throughput and latency for TCP and UDP protocols | :soon: |
 Prometheus | Monitoring | prometheus density focused test that creates pods, and nodes and some workloads especially for openshift-monitoring | :soon: |
